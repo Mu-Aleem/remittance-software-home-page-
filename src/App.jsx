@@ -1,12 +1,12 @@
 import './App.css';
+import Navbar from './components/layout/Navbar';
 
 function App() {
   return (
     <>
-      <div className="flex items-center justify-center h-screen bg-blue-500">
-        <h1 className="text-4xl font-bold text-white underline">
-          Tailwind is Working!
-        </h1>
+      <div className="min-h-screen">
+        <Navbar />
+        <main className="pt-20"></main>
       </div>
     </>
   );
